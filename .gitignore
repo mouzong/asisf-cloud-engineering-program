@@ -1,9 +1,9 @@
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfplan
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
 
-keys/*
-!keys/*.pub
+terraform/keys/*
+terraform/!keys/*.pub
 
-.terraform.lock.hcl
+terraform/.terraform.lock.hcl
